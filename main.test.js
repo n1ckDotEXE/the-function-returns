@@ -5,7 +5,6 @@
 
 
 
-
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
@@ -55,62 +54,50 @@ if (typeof remainder === 'undefined') {
 }
 
 describe('greet', () => {
-  it(`Adds hello to the parameter name and puts it in greeting'`, () => {
+  it(`multiplies x by the given parameter'`, () => {
     greet('mess')
     expect(greeting).toBe('Hello mess')
   })
 });
 
 describe('sumOfTwo', () => {
-  it(`adds the two parameters and puts the result in sum`, () => {
+  it(`runs a modulus operation on y`, () => {
     sumOfTwo(2, 4);
     expect(sum).toEqual(6);
   })
 });
 
 describe('multiply', () => {
-  it(`multiplies the three parameters and puts the result in prod`, () => {
+  it(`sets z to the opposite of the given parameter`, () => {
     multiply(2, 2, 2);
     expect(prod).toBe(8);
   })
 });
 
 describe('returnWhatISay', () => {
-  it(`returns the given string unchanged`, () => {
-    let returnValue1 = returnWhatISay('Colin');
-    expect(returnValue1).toEqual('Colin');
-    let returnValue2 = returnWhatISay('Mesuara');
-    expect(returnValue2).toEqual('Mesuara');
+  it(`makes_greeting_into_a_string_that_yells_the_greeting_at_someone`, () => {
+    const returnValue = returnWhatISay('Colin')
+    expect(returnValue).toEqual(`Colin`);
   })
 });
 
 describe('sayHi', () => {
-  it(`takes the given parameter and adds 'Hello ' before it (note the space!), returning the result`, () => {
-    let returnValue1 = sayHi('Colin')
-    expect(returnValue1).toEqual(`Hello Colin!`);
-    let returnValue2 = sayHi('Mesuara')
-    expect(returnValue2).toEqual(`Hello Mesuara!`);
+  it(`makes_greeting_into_a_string_that_yells_the_greeting_at_someone`, () => {
+    const returnValue = sayHi('Colin')
+    expect(returnValue).toEqual(`Hello Colin!`);
   })
 });
 
 describe('divide', () => {
-  it(`divides the first parameter by the second parameter and returns the result`, () => {
-    let returnValue1 = divide(10, 5)
-    expect(returnValue1).toEqual(2);
-    let returnValue2 = divide(84, 7)
-    expect(returnValue2).toEqual(12);
+  it(`makes_greeting_into_a_string_that_yells_the_greeting_at_someone`, () => {
+    const returnValue = divide(10, 5)
+    expect(returnValue).toEqual(2);
   })
 });
 
 describe('remainder', () => {
-  it(`returns the remainder you get when you divide the first parameter by the second parameter`, () => {
-    let returnValue1 = remainder(10, 3)
-    expect(returnValue1).toEqual(1);
-    let returnValue2 = remainder(10, 4)
-    expect(returnValue2).toEqual(2);
-    let returnValue3 = remainder(10, 5)
-    expect(returnValue3).toEqual(0);
-    let returnValue4 = remainder(13, 5)
-    expect(returnValue4).toEqual(3);
+  it(`makes_greeting_into_a_string_that_yells_the_greeting_at_someone`, () => {
+    const returnValue = remainder(10, 3)
+    expect(returnValue).toEqual(1);
   })
 });
