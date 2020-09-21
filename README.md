@@ -44,7 +44,7 @@ You'll be working in **`main.test.js`**, creating the variables needed with the 
 
 * Create a function named  `returnWhatISay` that will take a string sentence and returns that sentence
 
-   INPUT:  returnWhatIsay("Hello students, how are you"); 
+   INPUT:  returnWhatISay("Hello students, how are you"); 
 
    OUTPUT:  "Hello students, how are you";
 
