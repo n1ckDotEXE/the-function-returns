@@ -22,9 +22,9 @@ You'll be working in **`main.test.js`**, creating the variables needed with the 
 
 ##### Global Variables, just to refresh us on the old way of doing things.
 
-* Create a variable named `greeting` and assign it to the value of string 'Hello'
-* Create a variable named `sum` and assign it to the value of 0
-* Create a variable named `prod` and assign it to the value of 0
+* Create a variable named `greeting` and give it the value 'Hello'.
+* Create a variable named `sum` and give it the value 0.
+* Create a variable named `prod` and give it the value 0.
 * Create a function named  `greet` that will take one parameter (of type string). The function will change the value of `greeting` to 'Hello' followed by a space followed by the value of the parameter.
 * Create a function named  `sumOfTwo` that will take two parameters (of type number). The function will change the value of `sum` to be equal to the sum of the two parameters
 * Create a function named  `multiply` that will take three parameters (of type number). The function will change the value of `prod` to be equal to the product of the three parameters.
